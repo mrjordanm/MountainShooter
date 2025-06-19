@@ -32,8 +32,8 @@ class Menu:
             # DRAW IMAGES
             self.window.blit(source=self.surf, dest=self.rect)
 
-            self.menu_text(50, "Sky", COL_BLUE, ((WIN_WIDTH / 2), 70))
-            self.menu_text(50, "Battle", COL_BLUE, ((WIN_WIDTH / 2), 120))
+            self.menu_text(50, "Sky", COL_WHITE, ((WIN_WIDTH / 2), 70))
+            self.menu_text(50, "Battle", COL_WHITE, ((WIN_WIDTH / 2), 120))
 
             for i in range(len(MENU_OPTION)):
                 self.menu_text(20, MENU_OPTION[i], COL_WHITE, ((WIN_WIDTH / 2), 200 + 25 * i))
